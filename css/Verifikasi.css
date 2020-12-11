@@ -1,0 +1,44 @@
+*:focus {
+    outline: none;
+  }  
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 251, 251); 
+    background-image: url(image/awan.jpg);
+} 
+.verifikasi{
+    position: relative;
+    margin: 5% auto;
+    width: 500px;
+    height: 350px;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}  
+.konten {
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+}
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+}
+.btn {
+    background-color:  rgba(0, 136, 169,1);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 16px;
+}  
+.btn:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,68 @@
+*{
+    margin:0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 136, 169,1);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: black ;
+    color:white;
+}
+.footer {
+    width: 100%;
+    position: fixed;   
+    background-color:#e5e5e5;
+    text-align:center;
+    padding:10px;
+    bottom: 0;
+}
+.donasi{
+    float: center;
+}
+.isi{
+    width:600px;
+	padding:25px;
+    margin:25px auto;
+    color: black;
+    font-size: 20px;
+}
+.isi2 {  
+    display: flex;
+}
+.main {   
+    flex: 70%;
+    background-color: white;
+}
+img {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    margin: 0;
+}
+.btn {
+    background-color:  rgba(0, 136, 169,1);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 16px;
+}  
+.btn:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,195 @@
+*{
+    margin:0;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image:url("../image/tangan6.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    list-style-type: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(74, 178, 209);
+}
+li, a, button{
+    font-family :"";
+    font-weight: 500;
+    font-size: 16px;
+    color : #edf0f1;
+    text-decoration: none;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    padding: auto;
+}
+.nav1{
+    list-style: none;
+}
+.nav1 li{
+    display: inline-block; 
+    padding: 0px 20px;
+}
+.nav1 li a{
+    transition : all 0.3s ease 0s;
+}
+.nav1 li a:hover{
+    color: #0088a9;
+}
+button{
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169,1);
+    border:none;
+    border-radius: 50px;
+    transition : all 0.3s ease 0s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: black;
+}
+.fixed-footer{
+    width: 100%;
+    position: fixed;   
+    background-color:#e5e5e5;
+    text-align:center;
+    padding:10px;
+    bottom: 0;
+}
+/*Info*/
+.Info {
+    padding: 20px;
+    background-color: rgba(0, 136, 169,1);
+    color: white;
+  }
+.tutup {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+.tutup:hover {
+    color: black;
+  }
+
+/*card*/
+.mainbody{
+  margin: 2%;
+ }
+ .card{
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px; 
+  margin: 2%;
+ }
+ .image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+ .Judul{
+  text-align: center;
+  padding: 10px;
+ }
+ .deskripsi{
+  padding: 3px;
+  text-align: center; 
+  padding-top:1px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/*slide quote*/
+q{
+    font-style: italic;
+    font-size:18px;
+}
+.author {color: rgb(1, 7, 19);}
+.slide {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+.slideshow {
+    position: relative;
+    padding-bottom: 10px;
+    box-shadow: 5px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+} 
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+} 
+/*Kotak Saran*/
+.bg-img {
+    background-image: url("image/tangan6.jpg");
+    width: 100%;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.kotaksaran {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+input[type=text], input[type=textarea] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=textarea]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.btn_saran {
+    background-color: rgba(0, 136, 169,1);;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 10px;
+}  
+.btn_saran:hover {
+    opacity: 1;
+}
